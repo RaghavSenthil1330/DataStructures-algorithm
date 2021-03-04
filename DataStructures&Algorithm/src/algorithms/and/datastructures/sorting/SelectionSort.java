@@ -22,7 +22,7 @@ public class SelectionSort {
 				}
 			}
 			swap(i,max,myArray);
-			System.out.println("Array after sorted for the "+(10-i)+" iteration -->  "+Arrays.toString(myArray));
+			System.out.println("Array after sorted for the "+(myArray.length-i)+" iteration -->  "+Arrays.toString(myArray));
 			
 		}
 		System.out.println("\n\nArray after sorted in the ascending order -->  "+Arrays.toString(myArray));
